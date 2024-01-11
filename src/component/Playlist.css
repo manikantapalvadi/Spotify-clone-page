@@ -1,0 +1,89 @@
+.Playlist-container{
+    padding: 20px;
+    /* overflow-y: scroll;
+    height: 100%; */
+}
+
+/* .Playlist-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .Playlist-container::-webkit-scrollbar-thumb {
+    background-color: rgba(240, 248, 255, 0.473);
+    border-radius: 8px;
+  }
+  
+  .Playlist-container::-webkit-scrollbar-track {
+    background: linear-gradient(transparent, rgba(0,0,0,1));
+    background-color: rgba(31,87,100);
+  } */
+
+.Playlist-header{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Playlist-image-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkL52uh3zxMQKVsIBIioVW6DFA8VNGWfw3tOnQ421gjXhWU0ny4OkVNaEu5PjwbhDihU&usqp=CAU');
+    background-size: cover;
+}
+
+.Playlist-body{
+    color: #ededed;
+}
+
+.Playlist-body h1{
+    font-size: 2.5rem;
+} 
+
+.Playlist-list{
+    color: #dcdcdc;
+    margin-top: 30px;
+    display: flex;
+}
+
+.Playlist-list .Playlist-list-id{
+    width: 10%;
+}
+
+.Playlist-list .Playlist-list-title{
+    width: 40%;
+}
+
+.Playlist-list .Playlist-list-album{
+    width: 40%;
+}
+
+.Playlist-list .Playlist-list-duration{
+    width: 10%;
+}
+
+.Playlist-list-container{
+    height: 40vh;
+    overflow-y: scroll;
+    /* font-size: 0.9rem; */
+}
+
+.Playlist-list-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .Playlist-list-container::-webkit-scrollbar-thumb {
+    background-color: rgba(240, 248, 255, 0.473);
+    border-radius: 8px;
+  }
+  
+  .Playlist-list-container::-webkit-scrollbar-track {
+    background: linear-gradient(transparent, rgba(0,0,0,1));
+    background-color: rgba(31,87,100);
+  } 
+
+  .Playlist-displaytitle{
+    font-size: 1.3rem;
+
+  }
